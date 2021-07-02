@@ -1,0 +1,141 @@
+body {
+	background: #fff;
+	color: #666666;
+    font-family: 'Yomogi', cursive;}
+
+/* navbar */
+.navbar{
+	background-color: rgba(0,0,0,0.75);
+}
+.navbar .nav-item .nav-link{
+	color:aqua !important;
+	font-size: 1.5em;
+}
+.navbar .nav-item:hover .nav-link{
+	color: #27aa64 !important;
+}
+.navbar .nav-item.active .nav-link{
+	color: #27aa64 !important;
+}
+/* /navbar */
+
+/* SLIDER */
+#slider .carousel-content{
+	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#slider .carousel-content .card{
+	position: absolute;
+	right: 30px;
+	bottom: 50px;
+	border: none;
+	max-width: 30%;
+	border-radius: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: cyan;
+}
+@media screen and (max-width: 768px){
+	#slider .carousel-content .card{
+		max-width: 50%;
+		right: 30px;
+		bottom: 50px;
+	}
+}
+@media screen and (max-width: 576px){
+	#slider .carousel-content .card{
+		max-width: 100%;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}
+/* /SLIDER */
+
+/* Testimonials */
+#testimonials{
+	background-color: #f7f7f7;
+}
+#testimonials .carousel-item img{
+	max-width: 100px;
+}
+#carousel-testimonials .carousel-indicators li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #dcdcdc;
+}
+#carousel-testimonials .carousel-indicators li.active{
+	background-color: #1ad375;
+}
+.testimoni{
+	/*margin: 0;*/
+}
+/* /Testimonials */
+
+footer {
+  background: rgb(0, 0, 0);
+  overflow-x: hidden;
+  padding: 7vmin 22vmin;
+  padding-bottom: 10px;
+}
+
+footer .sp {
+  color: aqua;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: aqua;
+  margin: 0.4rem;
+  font-size: 2em;
+  transition: color 0.3s linear;
+}
+footer .column i:hover {
+  color:aqua;
+}
+
+footer p.gmail {
+  color: aqua;
+  transition: color 0.3s linear;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    z-index: 100;
+    bottom: 55px;
+    right: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(19, 226, 233);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #404040;
+  }
