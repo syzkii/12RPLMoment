@@ -1,3 +1,7 @@
+* {margin: 0; padding: 0}
+html {
+    scroll-behavior: smooth;
+}
 body {
 	background: #fff;
 	color: #666666;
@@ -12,16 +16,16 @@ body {
 	font-size: 1.5em;
 }
 .navbar .nav-item:hover .nav-link{
-	color: #27aa64 !important;
+	color: #eb6bda !important;
 }
 .navbar .nav-item.active .nav-link{
-	color: #27aa64 !important;
+	color: #eb6bda !important;
 }
 /* /navbar */
 
 /* SLIDER */
 #slider .carousel-content{
-	height: 600px;
+	height: 700px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -70,8 +74,8 @@ body {
 #carousel-testimonials .carousel-indicators li.active{
 	background-color: #1ad375;
 }
-.testimoni{
-	/*margin: 0;*/
+/*.testimoni{
+	margin: 0;
 }
 /* /Testimonials */
 
